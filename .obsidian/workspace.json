@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7ddaae5345f4ccd6",
+        "id": "bc0df1e4b0c45c2b",
         "type": "tabs",
         "children": [
           {
-            "id": "90d1a1ca0da14431",
+            "id": "033cce304618d517",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "images/bf46a12d-5db5-498d-a6c7-958a32709730.png.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "tag:#undef",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/bf46a12d-5db5-498d-a6c7-958a32709730.png.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/bf46a12d-5db5-498d-a6c7-958a32709730.png.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "images/bf46a12d-5db5-498d-a6c7-958a32709730.png.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -134,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,8 +140,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "572712d5b71cc595",
+  "active": "033cce304618d517",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "images/bf46a12d-5db5-498d-a6c7-958a32709730.png.md",
+    "未命名",
     "soft/raft.md",
     "README.md",
     "mysql/MySQL实战45讲.pdf",
@@ -165,7 +162,6 @@
     "cpp/images/2ae245b0-f47e-45b5-89f6-f36d1c7cb838.png",
     "cpp/images/11d03133-b1d8-440e-b043-d5ba17ee064b.png",
     "cpp/images/data-url-convert-to-file-1620119844842.jpeg",
-    "images/bf46a12d-5db5-498d-a6c7-958a32709730.png.md",
     "images",
     "cpp/STL笔记.md",
     "cpp/primer阅读笔记.md"
