@@ -2,5 +2,11 @@
   "obsidian-codemirror-options",
   "obsidian-highlightpublicnotes-plugin",
   "markdown-table-editor",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-mind-map",
+  "cm-editor-syntax-highlight-obsidian",
+  "editing-toolbar",
+  "obsidian-auto-link-title",
+  "obsidian-outliner",
+  "obsidian-vimrc-support"
 ]
