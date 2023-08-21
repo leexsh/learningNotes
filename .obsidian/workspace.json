@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "音视频/音视频.md",
+                "file": "优秀文章合集和整理/优秀文章阅读笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#undef",
+                "query": "tag:#include",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "音视频/音视频.md",
+                "file": "优秀文章合集和整理/优秀文章阅读笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "音视频/音视频.md",
+                "file": "优秀文章合集和整理/优秀文章阅读笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,22 +120,21 @@
             }
           },
           {
-            "id": "dc5c28541431c2f6",
+            "id": "3592fd57b9363cd3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "音视频/音视频.md"
+                "file": "优秀文章合集和整理/优秀文章阅读笔记.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,28 +149,34 @@
   },
   "active": "033cce304618d517",
   "lastOpenFiles": [
-    "etcd/etcd1-13梳理.pdf",
-    "GO/Go基础.md",
+    "优秀文章合集和整理/优秀文章合集.md",
+    "优秀文章合集和整理/优秀文章阅读笔记.md",
+    "cpp/cpp Style Guide.md",
+    "未命名.canvas",
+    "Pasted image 20230821232927.png",
+    "Pasted image 20230821232922.png",
+    "2023-08-21.md",
+    "README.md",
+    "优秀文章合集和整理",
+    "soft/raft.md",
+    "redis/redis.md",
+    "OC/OC学习.md",
+    "OC/OC高级.md",
     "kafka/kafka.md",
+    "k8s/k8s.md",
+    "images/bf46a12d-5db5-498d-a6c7-958a32709730.png.md",
+    "mysql/MySQL实战45讲.pdf",
+    "etcd/etcd1-13梳理.pdf",
+    "音视频/音视频.md",
+    "GO/Go基础.md",
     "Linux/Linux网络.md",
     "Linux/Linux其他.md",
     "Linux/Linux高级.md",
-    "mysql/MySQL实战45讲.pdf",
-    "OC/OC高级.md",
-    "OC/OC学习.md",
     "pdf文档/地址与间接引用、地址.pdf",
     "pdf文档/操作系统.pdf",
-    "redis/redis.md",
-    "README.md",
-    "soft/raft.md",
-    "优秀文章合集.md",
-    "未命名.canvas",
     "未命名 1.canvas",
-    "images/bf46a12d-5db5-498d-a6c7-958a32709730.png.md",
-    "未命名",
     "未命名.md",
     "mysql",
-    "cpp/cpp Style Guide.md",
     "Python/Python.pdf",
     "pdf文档/数据库.pdf",
     "pdf文档/数据结构.pdf",
