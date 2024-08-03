@@ -5,7 +5,6 @@
 
 > 关键词：分布式 ID  短链  限流
 
-  
 
 # 分布式 ID 相关
 
@@ -380,89 +379,44 @@ func (leaky *LeakyBucket) Set(rate, capacity float64) {
 ### 令牌桶
 令牌桶是反向的"漏桶"，它是以恒定的速度往木桶里加入令牌，木桶满了则不再加入令牌。服务收到请求时尝试从木桶中取出一个令牌，如果能够得到令牌则继续执行后续的业务逻辑。如果没有得到令牌，直接返回访问频率超限的错误码或页面等，不继续执行后续的业务逻辑。
 
-  
-
-![](https://fastly.jsdelivr.net/gh/leexsh/picture_save/202310292243457.png)
-![](/img-系统设计/LoTnbLEgloqcifx0rS9cqNNcnJg.png)
-
-  
-
+![](static/LoTnbLEgloqcifx0rS9cqNNcnJg.png)
 同时由于往木桶添加令牌的速度是恒定的，且木桶的容量有上限，所以单位时间内处理的请求书也能够得到控制，起到限流的目的。假设加入令牌的速度为 1token/10ms，桶的容量为 500，在请求比较的少的时候（小于每 10 毫秒 1 个请求）时，木桶可以先"攒"一些令牌（最多 500 个）。当有突发流量时，一下把木桶内的令牌取空，也就是有 500 个在并发执行的业务逻辑，之后要等每 10ms 补充一个新的令牌才能接收一个新的请求。
-
-  
 
 适合电商抢购或者微博出现热点事件这种场景，因为在限流的同时可以应对一定的突发流量。如果采用漏桶那样的均匀速度处理请求的算法，在发生热点时间的时候，会造成大量的用户无法访问，对用户体验的损害比较大。
 
-  
-
 ```go
-
 type TokenBucket struct {
-
    rate         int64 //固定的token放入速率, r/s
-
    capacity     int64 //桶的容量
-
    tokens       int64 //桶中当前token数量
-
    lastTokenSec int64 //上次向桶中放令牌的时间的时间戳，单位为秒
-
-  
-
    lock sync.Mutex
-
 }
 
-  
-
 func (bucket *TokenBucket) Take() bool {
-
    bucket.lock.Lock()
-
    defer bucket.lock.Unlock()
-
-  
-
    now := time.Now().Unix()
-
    bucket.tokens = bucket.tokens + (now-bucket.lastTokenSec)*bucket.rate // 先添加令牌
-
    if bucket.tokens > bucket.capacity {
-
       bucket.tokens = bucket.capacity
-
    }
 
    bucket.lastTokenSec = now
-
    if bucket.tokens > 0 {
-
       // 还有令牌，领取令牌
-
       bucket.tokens--
-
       return true
-
    } else {
-
       // 没有令牌,则拒绝
-
       return false
-
    }
-
 }
 
-  
-
 func (bucket *TokenBucket) Init(rate, cap int64) {
-
    bucket.rate = rate
-
    bucket.capacity = cap
-
    bucket.tokens = 0
-
    bucket.lastTokenSec = time.Now().Unix()
 
 }
