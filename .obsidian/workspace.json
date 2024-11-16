@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redis/redis.md",
+                "file": "音视频/音视频.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redis/redis.md",
+                "file": "音视频/音视频.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redis/redis.md",
+                "file": "音视频/音视频.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redis/redis.md"
+                "file": "音视频/音视频.md"
               }
             }
           }
@@ -147,15 +147,17 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "db559d3b049ef7d2",
+  "active": "572712d5b71cc595",
   "lastOpenFiles": [
+    "优秀文章合集和整理/系统设计内容整理(1)-分布式 ID、短链、限流.md",
+    "优秀文章合集和整理/static/LoTnbLEgloqcifx0rS9cqNNcnJg.png",
+    "优秀文章合集和整理/优秀文章合集.md",
+    "优秀文章合集和整理/面试参考.md",
+    "redis/redis.md",
     "Python/Python.pdf",
     "Linux/Linux网络.md",
     "GO/Go基础.md",
-    "优秀文章合集和整理/面试参考.md",
-    "优秀文章合集和整理/static/LoTnbLEgloqcifx0rS9cqNNcnJg.png",
     "Linux/Linux高级.md",
-    "优秀文章合集和整理/系统设计内容整理(1)-分布式 ID、短链、限流.md",
     "mysql/MySQL实战45讲.pdf",
     "Linux/Linux其他.md",
     "kafka/kafka.md",
@@ -164,18 +166,15 @@
     "static.md",
     "优秀文章合集和整理/LoTnbLEgloqcifx0rS9cqNNcnJg.png",
     "优秀文章合集和整理/static",
-    "优秀文章合集和整理/优秀文章合集.md",
     "img-系统设计/LuE1bjhivorZFBxdHcfcUw7mnvd.png.md",
     "img-系统设计",
     "面试相关/系统设计内容整理(1)-分布式 ID、短链、限流.md",
     "优秀文章合集和整理",
-    "redis/redis.md",
     "redis",
     "pdf文档/数据结构.pdf",
     "pdf文档/数据库.pdf",
     "pdf文档/操作系统.pdf",
     "pdf文档/地址与间接引用、地址.pdf",
-    "pdf文档/其他笔记.pdf",
     "cpp/primer阅读笔记.md",
     "cpp/images/data-url-convert-to-file-1620119844842.jpeg",
     "cpp/images/bf46a12d-5db5-498d-a6c7-958a32709730.png",
